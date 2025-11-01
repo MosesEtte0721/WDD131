@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+main h1{
+    grid-column: 1 / -1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'DM Serif Text', serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    grid-column: 1 / -1;
+    grid-row: 1/2;
+    background-color: darkseagreen;
+    padding: 10px 0;
+    margin: 0;
+    align-items: center;
+    
+}
+header ul {
+    display: flex;
+    justify-content: space-around;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    background-color: darkcyan;
+    
+}
+header ul li {
+    list-style: none;
+    padding: 15px 0;
+    text-align: center;
+
+    /* margin:5px 0;                                                                                                                                    */
+
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;                                                                                                                                                                               
+    border: 1px solid #333;
+    border-radius: 5px;
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+
+
+main {
+    grid-column: 1 / -1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    padding: 0;
+}
+section.myself{
+    grid-column: 1 / 5;
+  max-width: 100%;
+}
+
+section.flag{
+    grid-column: 1/ 5;
+    max-width: 100%;
+}
+section {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    max-width: 60%;
+    grid-auto-rows: min-content;
+    padding: 10px;
+    border: 3px solid lightsteelblue;
+    border-radius: 15px 15px 15px 15px;
+    margin: 10px;
+
+}
+
+section > .about-me {
+    grid-column: 1 / -1;
+    background-color: lightsteelblue;
+    max-width: 100%;
+    text-align: center;
+    /* padding: 5px 0; */
+    /* margin: 5px 0; */
+    /* border-radius: 15px 15px 0 0; */
+}
+section.myself :nth-child(2) { /* <p> of the first section element*/
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 2;
+    padding: 10px;
+    margin:0; 
+    max-width: 100%;
+}
+
+section.myself :nth-child(3) { /* <img> of the first section element*/
+    grid-column: 4 /6;
+    grid-row: 2/3;
+    max-width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+
+section > .about-place {
+    grid-column: 1 / -1;
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+section.flag :nth-child(2) { /* <P> of the second section element*/
+     align-self: center;
+     grid-column: 1 /4;
+     grid-row: 2 / 4;
+     max-width: 100%;
+      padding: 10px;
+     margin: 10px;
+
+}
+
+section.flag :nth-child(3) { /* <img? of the second section element*/
+    align-self: center;
+    max-width: 100%;
+    padding: 10px;
+
+    /* margin: 10px; */
+    /* padding: 5px; */
+    
+}
+
+article{
+    grid-column: 5/-1;
+    grid-row: 2/5;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    border: 3px solid lightsteelblue;
+}
+.projects {
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 0 10px;
+    margin: 10px;
+
+   
+}
+article ul {
+    padding: 35px;
+    list-style-type: square;
+
+    justify-items: center;
+    
+
+}
+article ul li {
+    margin: 20px 0;
+    
+
+}
+
+section.flag :nth-child(2) {
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+
+
+footer {
+    justify-items: center;
+    align-items: center;
+    grid-column: 1 / -1;
+    grid-row: 3;
+    background-color: darkseagreen;
+}
+
+#course-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 5px 10px;
+}
