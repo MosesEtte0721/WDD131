@@ -44,8 +44,12 @@ header ul li {
     padding: 15px 0;
     text-align: center;
 
+
     /* margin:5px 0;                                                                                                                                    */
 
+}
+header ul li a:hover {
+    background-color: lightcyan;
 }
 header ul li a {
     text-decoration: none;
