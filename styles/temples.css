@@ -1,0 +1,102 @@
+header {
+    background-color: darkseagreen;
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    background-color: beige;
+    margin: 0;
+
+}
+header > :nth-child(1) {
+    text-align: center;
+}
+
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ ul li {
+
+    list-style: none;
+    margin: 10px 3px;
+    padding: 0;
+    cursor: pointer;
+    
+
+}
+ul li a:hover {
+    background-color: #faebd7;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0;
+    
+} 
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+footer {
+    justify-items: center;
+    background-color: darkseagreen;
+}
+
+footer .authorName {
+    display: none;
+}
+footer #currentYear {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+
+/* Optional: Add animation on toggle */
+.hamburger-menu.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+
+ul.display {
+    display: none;
+}
+

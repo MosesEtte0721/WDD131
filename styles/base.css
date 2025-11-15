@@ -33,24 +33,25 @@ header {
     align-items: center;
     
 }
+
 header ul {
     display: flex;
     justify-content: space-around;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     background-color: darkcyan;
     
 }
+
 header ul li {
     list-style: none;
     padding: 15px 0;
     text-align: center;
 
-
-    /* margin:5px 0;                                                                                                                                    */
-
 }
+
 header ul li a:hover {
     background-color: lightcyan;
 }
+
 header ul li a {
     text-decoration: none;
     color: black;

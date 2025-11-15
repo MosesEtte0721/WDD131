@@ -1,0 +1,47 @@
+@media (min-width: 508px) {
+  nav .hamburger-menu {
+    display: none;
+  }
+  
+  .nav-ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul li {
+    
+    list-style: none;
+    margin: 10px 3px;
+    padding: 0;
+    cursor: pointer;
+
+}
+ul li a:hover {
+    background-color: #faebd7;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+ul.display {
+  display: flex;
+
+}
+
+  
+}
