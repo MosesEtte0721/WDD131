@@ -20,7 +20,6 @@ main {
 }
 
 
-
 ul {
     display: flex;
     flex-direction: column;
@@ -34,9 +33,8 @@ ul {
     margin: 10px 3px;
     padding: 0;
     cursor: pointer;
-    
-
 }
+
 ul li a:hover {
     background-color: #faebd7;
     
