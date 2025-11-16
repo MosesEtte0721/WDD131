@@ -13,7 +13,7 @@
     border: 1px solid #ddd;
   }
   
-  ul {
+  nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
